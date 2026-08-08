@@ -1,240 +1,235 @@
-
+```html
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Gayatri Yadav</title>
 
-<title>Projects | Gayatri Yadav</title>
+    <link rel="stylesheet" href="css/style.css">
 
-<link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
 <body>
 
-<header>
+    <!-- Header -->
+    <header>
 
-<div class="logo">
-<h2>GY.</h2>
-</div>
+        <div class="logo">
+            <h2>GY.</h2>
+        </div>
 
-<nav>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
 
-<ul>
+    </header>
 
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="skills.html">Skills</a></li>
-<li><a href="projects.html" class="active">Projects</a></li>
-<li><a href="resume.html">Resume</a></li>
-<li><a href="contact.html">Contact</a></li>
 
-</ul>
+    <!-- Projects Section -->
+    <section class="projects">
 
-</nav>
+        <h1 class="section-title">My Projects</h1>
 
-</header>
+        <div class="project-grid">
 
-<section class="projects">
 
-<h1 class="section-title">My Projects</h1>
+            <!-- Project 1 -->
+            <div class="project-card">
 
-<div class="project-grid">
+                <img
+                    src="images/a1.jpg"
+                    alt="Student Management System">
 
-<!-- Project 1 -->
+                <div class="project-content">
 
-<div class="project-card">
+                    <h2>Student Management System</h2>
 
-<img src="images/project1.png" alt="Student Management">
+                    <p>
+                        A Full Stack application developed using
+                        Spring Boot, React.js and MySQL with
+                        role-based authentication.
+                    </p>
 
-<div class="project-content">
+                    <div class="tech">
+                        <span>Java</span>
+                        <span>Spring Boot</span>
+                        <span>React</span>
+                        <span>MySQL</span>
+                    </div>
 
-<h2>Student Management System</h2>
+                    <div class="buttons">
 
-<p>
+                        <a href="#" class="btn">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
 
-A Full Stack application developed using Spring Boot, React.js and MySQL with role-based authentication.
+                        <a href="#" class="btn2">
+                            Live Demo
+                        </a>
 
-</p>
+                    </div>
 
-<div class="tech">
+                </div>
 
-<span>Java</span>
+            </div>
 
-<span>Spring Boot</span>
 
-<span>React</span>
+            <!-- Project 2 -->
+            <div class="project-card">
 
-<span>MySQL</span>
+                <img
+                    src="images/c2.jpg"
+                    alt="JWT Authentication System">
 
-</div>
+                <div class="project-content">
 
-<div class="buttons">
+                    <h2>JWT Authentication System</h2>
 
-<a href="#" class="btn">
-<i class="fab fa-github"></i> GitHub
-</a>
+                    <p>
+                        Secure authentication system using
+                        Spring Security, JWT Token and React.
+                    </p>
 
-<a href="#" class="btn2">
-Live Demo
-</a>
+                    <div class="tech">
+                        <span>JWT</span>
+                        <span>Spring Security</span>
+                        <span>React</span>
+                    </div>
 
-</div>
+                    <div class="buttons">
 
-</div>
+                        <a href="#" class="btn">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
 
-</div>
+                        <a href="#" class="btn2">
+                            Live Demo
+                        </a>
 
-<!-- Project 2 -->
+                    </div>
 
-<div class="project-card">
+                </div>
 
-<img src="images/project2.png" alt="Authentication">
+            </div>
 
-<div class="project-content">
 
-<h2>JWT Authentication System</h2>
+            <!-- Project 3 -->
+            <div class="project-card">
 
-<p>
+                <img
+                    src="images/q1.jpg"
+                    alt="CRUD Web Application">
 
-Secure authentication system using Spring Security, JWT Token and React.
+                <div class="project-content">
 
-</p>
+                    <h2>CRUD Web Application</h2>
 
-<div class="tech">
+                    <p>
+                        Complete CRUD system using Spring MVC,
+                        Hibernate, Thymeleaf and MySQL.
+                    </p>
 
-<span>JWT</span>
+                    <div class="tech">
+                        <span>Spring MVC</span>
+                        <span>Hibernate</span>
+                        <span>MySQL</span>
+                    </div>
 
-<span>Spring Security</span>
+                    <div class="buttons">
 
-<span>React</span>
+                        <a href="#" class="btn">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
 
-</div>
+                        <a href="#" class="btn2">
+                            Live Demo
+                        </a>
 
-<div class="buttons">
+                    </div>
 
-<a href="#" class="btn">
-GitHub
-</a>
+                </div>
 
-<a href="#" class="btn2">
-Live Demo
-</a>
+            </div>
 
-</div>
 
-</div>
+            <!-- Project 4 -->
+            <div class="project-card">
 
-</div>
+                <img
+                    src="images/s1.jpg"
+                    alt="Quick Health Tips">
 
-<!-- Project 3 -->
+                <div class="project-content">
 
-<div class="project-card">
+                    <h2>Quick Health Tips</h2>
 
-<img src="images/project3.png" alt="CRUD">
+                    <p>
+                        Health Tips Portal developed using
+                        Python Django with Admin Dashboard.
+                    </p>
 
-<div class="project-content">
+                    <div class="tech">
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>MySQL</span>
+                    </div>
 
-<h2>CRUD Web Application</h2>
+                    <div class="buttons">
 
-<p>
+                        <a href="#" class="btn">
+                            <i class="fab fa-github"></i>
+                            GitHub
+                        </a>
 
-Complete CRUD system using Spring MVC, Hibernate, Thymeleaf and MySQL.
+                        <a href="#" class="btn2">
+                            Live Demo
+                        </a>
 
-</p>
+                    </div>
 
-<div class="tech">
+                </div>
 
-<span>Spring MVC</span>
+            </div>
 
-<span>Hibernate</span>
 
-<span>MySQL</span>
+        </div>
 
-</div>
+    </section>
 
-<div class="buttons">
 
-<a href="#" class="btn">
-GitHub
-</a>
+    <!-- Footer -->
+    <footer>
 
-<a href="#" class="btn2">
-Live Demo
-</a>
+        <p>
+            © 2026 Gayatri Yadav | Portfolio
+        </p>
 
-</div>
+    </footer>
 
-</div>
 
-</div>
-
-<!-- Project 4 -->
-
-<div class="project-card">
-
-<img src="images/project4.png" alt="Health Tips">
-
-<div class="project-content">
-
-<h2>Quick Health Tips</h2>
-
-<p>
-
-Health Tips Portal developed using Python Django with Admin Dashboard.
-
-</p>
-
-<div class="tech">
-
-<span>Python</span>
-
-<span>Django</span>
-
-<span>MySQL</span>
-
-</div>
-
-<div class="buttons">
-
-<a href="#" class="btn">
-GitHub
-</a>
-
-<a href="#" class="btn2">
-Live Demo
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<footer>
-
-<p>
-
-© 2026 Gayatri Yadav | Portfolio
-
-</p>
-
-</footer>
-
-<script src="js/script.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 
 </html>
+```
